@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+	max-width: 750px;
+	outline: 1px solid black;
+	height: 500px;
+	font-family: "PT Mono", monospace;
+  overflow: hidden;
+}
+.logo-wrapper {
+	width: 100%;
+	text-align: center;
+	padding-top: 15px;
+}
+.logo-wrapper img {
+	width: 100%;
+	max-width: 350px;
+}
+.description-wrapper {
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+}
+/*.cards-wrapper {
+	margin-top: 80px;
+}*/
+	
+.label {
+  font-weight: bold;
+}
+.incident-block{
+  border: solid 3px #000;
+  background: #fff;
+  display: inline-block;
+  vertical-align: top;
+  font-family: "PT Mono";
+  margin: 10px 10px;
+  height: 160px;
+  text-align: left;
+  cursor: pointer;
+  position: absolute;
+  display: none;
+}
+
+.incident-block.sliding {
+  position: absolute;
+}
+
+.change-slide {
+  color: #ddd;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.change-slide.active {
+  color: #000;
+  cursor: pointer;
+}
+.change-slide.active:hover {
+  text-decoration: underline;
+}
+
+.incident-block .map-thumb{
+    width: 30%;
+    height: 100%;
+/*        background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+    background-position: 50% 50%;
+    display: inline-block;
+}
+
+.incident-block .text-container{
+    width: 68%;
+    display: inline-block;
+}
+
+
+.incident-block.right .map-thumb{
+    float: right;
+}
+
+.incident-block.left .map-thumb{
+    float: left;
+}
+
+.incident-block.left .text-container{
+    float: right;
+}
+
+.incident-block.right .text-container{
+    float: left;
+}
+
+.incident-block .incident-date{
+    color: #94090d;
+    padding: 0.5em;
+    margin-top: 0px;
+    margin-bottom: 0.3em;
+     z-index: 2;
+}
+.incident-block a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.incident-block .back{
+     background-color: #eee;
+     height: 35px;
+     position: absolute;
+     z-index: -1;
+          -moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    width: 0%;
+}
+
+.incident-block:hover .back{
+    width: 100%;
+}
+
+.incident-block .incident-title{
+    font-size: 1.1em;
+    padding: 0 0.5em;
+}
