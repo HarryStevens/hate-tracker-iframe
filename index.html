@@ -5,21 +5,26 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
 
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|PT+Mono:400,400i,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/FontAwesome.otf" />
 	<link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
 <div class="logo-wrapper">
-	<a href=""><img src="img/logo-08.png" /></a>
+	<a href="http://www.hindustantimes.com/hate-tracker/"><img src="img/logo-08.png" /></a>
 </div>
 <div class="description-wrapper">
-	<p>Tracking identity based hate crimes in India</p>
+	<p class="a">Tracking identity based hate crimes in India</p>
 	<p>A project by the <b>Hindustan Times</b></p>
 </div>
-<div style="display: inline-block; margin-right: 5px; margin-left: 10px; margin-top: 20px" class="label">Latest Incidents</div>
-<div style="display: inline-block; margin-right: 5px" data-type="prev" class="change-slide prev"><i class="fa fa-angle-left" aria-hidden="true"></i> Newer</div>
-<div style="display: inline-block; margin-right: 5px" data-type="next" class="change-slide next">Older <i class="fa fa-angle-right" aria-hidden="true"></i></div>
+<div class="label-wrapper">
+	<div class="label">Latest Incidents</div>
+	<div class="counter"><span class="current">1</span> of <span class="total"></span></div>
+	<div class="swipe">SWIPE <i class="fa fa-arrows-h" aria-hidden="true"></i></div>
+	<div data-type="prev" class="change-slide prev"><i class="fa fa-angle-left" aria-hidden="true"></i> Newer</div>
+	<div data-type="next" class="change-slide next">Older <i class="fa fa-angle-right" aria-hidden="true"></i></div>
+</div>
 <div class="cards-wrapper">
 </div>
 

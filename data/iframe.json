@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "dateOfIncident": "2017-04-05",
+      "headline": "Dalit wedding procession attacked by Rajput men for playing loud music",
+      "numberOfKilled": null,
+      "url": "dalit-wedding-procession-attacked-by-rajput-men-for-playing-loud-music-2017-04-05",
+      "arrayVictim": [],
+      "primaryKey": "7"
+    },
+    {
+      "dateOfIncident": "2016-10-09",
+      "headline": "Truck set on fire by cow vigilantes after rumours of cow slaughter in the area",
+      "numberOfKilled": "1",
+      "url": "truck-set-on-fire-by-cow-vigilantes-after-rumours-of-cow-slaughter-in-the-area-2016-10-09",
+      "arrayVictim": [
+        " Zahid Ahmad"
+      ],
+      "primaryKey": "3"
+    },
+    {
+      "dateOfIncident": "2015-10-09",
+      "headline": "Cow slaughter rumours spark assault and arson ",
+      "numberOfKilled": "0",
+      "url": "cow-slaughter-rumours-spark-assault-and-arson-2015-10-09",
+      "arrayVictim": [],
+      "primaryKey": "5"
+    },
+    {
+      "dateOfIncident": "2015-10-08",
+      "headline": "J&K MLA attacked by BJP legislators over a beef party",
+      "numberOfKilled": "0",
+      "url": "j-k-mla-attacked-by-bjp-legislators-over-a-beef-party-2015-10-08",
+      "arrayVictim": [],
+      "primaryKey": "6"
+    },
+    {
+      "dateOfIncident": "2015-10-06",
+      "headline": "Bajrang Dal members attacks cattle trader in Karnataka",
+      "numberOfKilled": "0",
+      "url": "bajrang-dal-attacks-cattle-trader-in-karnataka-2015-10-06",
+      "arrayVictim": [],
+      "primaryKey": "4"
+    },
+    {
+      "dateOfIncident": "2015-09-28",
+      "headline": "Muslim man brutally lynched by mob over beef consumption rumour, son grievously injured ",
+      "numberOfKilled": "1",
+      "url": "mob-kills-muslim-man-injures-son-over-rumours-that-they-ate-beef-2015-09-28",
+      "arrayVictim": [
+        "Mohd. Akhlaq",
+        "Mohd. Ikhlaq"
+      ],
+      "primaryKey": "2"
+    },
+    {
+      "dateOfIncident": "2015-09-28",
+      "headline": "Muslim man brutally lynched by mob over beef consumption rumour, son grievously injured ",
+      "numberOfKilled": "1",
+      "url": "mob-kills-muslim-man-injures-son-over-rumours-that-they-ate-beef-2015-09-28",
+      "arrayVictim": [
+        "Mohd. Akhlaq",
+        "Mohd. Ikhlaq"
+      ],
+      "primaryKey": "2"
+    },
+    {
+      "dateOfIncident": "2015-09-28",
+      "headline": "Muslim man brutally lynched by mob over beef consumption rumour, son grievously injured ",
+      "numberOfKilled": "1",
+      "url": "mob-kills-muslim-man-injures-son-over-rumours-that-they-ate-beef-2015-09-28",
+      "arrayVictim": [
+        "Mohd. Akhlaq",
+        "Mohd. Ikhlaq"
+      ],
+      "primaryKey": "2"
+    },
+    {
+      "dateOfIncident": "2015-09-28",
+      "headline": "Muslim man brutally lynched by mob over beef consumption rumour, son grievously injured ",
+      "numberOfKilled": "1",
+      "url": "mob-kills-muslim-man-injures-son-over-rumours-that-they-ate-beef-2015-09-28",
+      "arrayVictim": [
+        "Mohd. Akhlaq",
+        "Mohd. Ikhlaq"
+      ],
+      "primaryKey": "2"
+    },
+    {
+      "dateOfIncident": "2015-09-28",
+      "headline": "Muslim man brutally lynched by mob over beef consumption rumour, son grievously injured ",
+      "numberOfKilled": "1",
+      "url": "mob-kills-muslim-man-injures-son-over-rumours-that-they-ate-beef-2015-09-28",
+      "arrayVictim": [
+        "Mohd. Akhlaq",
+        "Mohd. Ikhlaq"
+      ],
+      "primaryKey": "2"
+    }
+  ],
+  "meta": {
+    "length": 240
+  }
+}
